@@ -1,0 +1,12 @@
+[workspace]
+resolver = "2"
+members = [
+    "./bins/teklo-foundry-web",
+]
+
+[workspace.package]
+edition = "2021"
+version = "0.1.0" 
+license-file = "LICENSE"
+license = "MIT"
+authors = ["James Bell <jamesbell@gmail.com>"]

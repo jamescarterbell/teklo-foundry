@@ -1,0 +1,21 @@
+[package]
+name = "teklo-foundry-web"
+version = "0.1.0"
+authors.workspace = true
+edition.workspace = true
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+dioxus = { version = "0.5", features = ["web", "router"] }
+
+# Debug
+tracing = "0.1.40"
+dioxus-logger = "0.5.0"
+manganis = "0.2.2"
+futures-core = "0.3.30"
+futures-util = "0.3.30"
+
+[features]
+bundle = []

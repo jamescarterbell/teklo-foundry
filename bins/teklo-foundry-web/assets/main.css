@@ -1,0 +1,88 @@
+body {
+    background-color: #111216;
+}
+
+.editor {
+    position: relative;
+}
+
+.rules {
+    position: absolute;
+    bottom: 15%;
+    left: 10%;
+    color: black;
+    background: transparent;
+    height: 20%;
+    width: 80%;
+    resize: none;
+    border: none;
+}
+
+.rules-editor {
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    color: black;
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    resize: none;
+    border: none;
+    font-family: 'card-text';
+}
+
+.inline-img {
+    display: inline;
+    margin-top: .15em;
+    padding: 0;
+    vertical-align: text-top;
+    height: .85em;
+    width:.85em;
+}
+
+#main {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+#links {
+    width: 400px;
+    text-align: left;
+    font-size: x-large;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+#links a {
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+    margin: 10px;
+    border: white 1px solid;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#links a:hover {
+    background-color: #1f1f1f;
+    cursor: pointer;
+}
+
+#header {
+    max-width: 1200px;
+}
+
+@font-face {
+    font-family: 'card-text'; /*a name to be used later*/
+    src: url('fonts/text.otf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'card-title'; /*a name to be used later*/
+    src: url('fonts/titles.otf'); /*URL to font*/
+}
